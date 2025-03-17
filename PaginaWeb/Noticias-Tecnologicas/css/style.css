@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+    text-align: center;
+    overflow-x: auto; 
+}
+.titulary{
+    background-color:#0A0D17;
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    color: white;
+    padding: 0 20px;
+    overflow-x: auto;
+    
+}
+.img-fluid{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    overflow-x: auto;
+    
+}
+.titule-one {
+    text-align: center;
+    margin-block: 0px;
+    font-size: 2.5rem; 
+    font-family: Arial, sans-serif; 
+     font-weight: bold;
+}
+h1{
+    margin-right: 0px; 
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E6;
+    
+}
+.container-fluid{
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.navbar.navbar-light.bg-light{
+    background-color: #E6E6E6;
+}
+.navbar-light.bg-light {
+    background-color: #E6E6E6 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-control.me-2{
+    border-color: #D60738;
+}
+.btn.btn-outline-success{
+    color: #D60738;
+    border-color: #D60738;
+}
+.seccion-one{
+    float: left;
+    height: 250px;
+    width: 60%;
+    object-fit: cover;
+    background-color:  #0A0D17;
+    color: white;
+    overflow-x: auto;
+}
+.seccion2{
+    font-size: 15px;
+}
+.d-flex.position-relative{
+    float: left;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+    object-fit: cover;
+    overflow-x: auto;
+    
+}
+.d-flex.position-relative img{
+    height: 200px;
+    overflow-x: auto;
+}
+.aside-right {
+    float: right;
+    height: 500px;
+    width: 40%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    background-color: #D60738;
+    overflow: hidden; 
+    color: white;
+    display: flex;
+    overflow-x: auto;
+}
+.carousel.slide{
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+}
+.seccion-tree{
+    float: left;
+    height: 250px;
+    width: 30%;
+    object-fit: cover;
+    display: flex;
+    overflow-x: auto;
+}
+.textCarousel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+    overflow-x: auto;
+}
+.seccion-tree img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.mt-1{
+    font-size: 18px;
+}
+.mt-2{
+    font-size: 18px;
+}
+.seccion-tree p, .seccion-four p {
+    font-size: 15px;
+  }
+
+  .seccion-tree a, .seccion-four a {
+    font-size: 15px;
+  }
+.seccion-four{
+    float: left;
+    height: 250px;
+    width: 30%;
+    object-fit: cover;
+    color: #2B2B4C;
+}
+.seccion-four img{
+    text-align: center;
+    align-items: center;
+    max-width: 140px;
+    max-height: 250px;
+    object-fit: contain;
+    display: flex;
+}
+
+.flex-shrink-0.me-3{
+
+    object-fit: cover;
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+}
+.artificial-one{
+    width: 40%;
+    display: flex;
+}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+tbody li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+tbody td{
+    font-size: 50px;
+    gap: 20px;
+} 
+th img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.icon-tree{
+    gap: 30px;
+}
+.icon-tree img{
+    height: 70px;
+    text-align: center;
+    align-items: center;
+}
+.body-principal{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+.titule-too{
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+.tbody-one{
+    text-align: center;
+    vertical-align: middle;
+}
+/* <!-- Viene el articulo con el video --> */
+.d-flex {
+    display: flex; /* Por defecto en columna en pantallas pequeñas */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    text-align: center;
+    gap: 20px; /* Espacio entre video y texto */
+}
+.d-flex.position-relative{
+ 
+    font-size: 25px;
+    width: 100%;
+    max-width:auto ;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.container {
+    max-width: 600px;
+    height:300px ;
+    margin: auto;
+}
+.ratio-16x9 video {
+    width: 100%;
+    border-radius: 10px;
+    vertical-align: middle;  
+   
+}
+.d-flex.align-items-center.justify-content-center.text-md-start.text-center{
+    height: 400px;
+    max-width: 100%;
+}
+div.ratio.ratio-16x9::before{
+    padding-top: 300px;
+}
+.container-video{
+padding-left: 40px;
+}
+.col-md-6{
+height: 300px;
+}
+.tex-articulo.col-md-6{
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    
+    vertical-align: middle;
+}
+.mt-3.mt-md-0{
+font-size: 30px;
+padding-top: 40px;
+padding-left: 30px;
+}
+.seccion-formulario {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; 
+    padding: 20px;
+}
+.img-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.90; 
+}
+.seccion-formulario form {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px; 
+    background-color: #0A0D17;
+    color: #E6E6E6;
+}
+/* Mejora la apariencia de los inputs */
+.seccion-formulario .form-control {
+    border-radius: 5px;
+}
+/* Estilos del botón */
+.seccion-formulario .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+/* Contenedor del contenido dentro del footer */
+.titulary {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+.titulary img {
+    padding-left: 10px; 
+    max-width: 100px; 
+    height: auto;
+}
+.titule-footer {
+    font-size: 16px;
+    font-weight: bold;
+}
